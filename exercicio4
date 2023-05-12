@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "portuguese");
+    int num_massans;
+    float valor_total;
+
+    printf("Bem vindo(a) à loja seu zé \nquantas maçãs você quer comprar?: ");
+    scanf("%d", &num_massans);
+
+    if (num_massans < 12) {
+        valor_total = num_massans * 0.30;
+    } else {
+        valor_total = num_massans * 0.25;
+    }
+
+    printf("O valor total da compra é R$ %.2f\n", valor_total);
+
+    return 0;
+}
