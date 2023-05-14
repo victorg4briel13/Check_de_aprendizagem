@@ -17,7 +17,7 @@ int main()
     }else if(sesgu == 2){
         pesoIdeal = (62.1 * altura) - 44.7;
     }else if(sesgu == 3){
-        printf("reveja as escolhas da sua vida");
+        printf("reveja as escolhas da sua vida \n");
         printf("\nEscolha uma opcao de sexo: \n1 - MASCULINO \n2 - FEMININO ");
         scanf("%i", &sesgu);
 
