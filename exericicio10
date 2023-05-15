@@ -15,11 +15,11 @@ int main(){
   scanf("%d", &l3);
 
   if(l1 == l2 && l1 == l3){
-    printf("\n Triangulo equilatero");
+    printf("\nTriangulo equilatero");
   }else if(l1 == l2 || l1 == l3 || l2 == l3){
-    printf("\n Triangulo isoseles");
+    printf("\nTriangulo isoseles");
   }else{
-    printf("Trinagulo escaleno");
+    printf("\nTrinagulo escaleno");
   }
   
 	return 0;
